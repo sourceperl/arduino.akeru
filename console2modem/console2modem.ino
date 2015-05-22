@@ -3,6 +3,8 @@
 
 // Akeru UNB modem : S_RX is D4, S_TX is D5
 SoftwareSerial modem(5,4); //uC Rx D5, Tx D4
+// Akene UNB modem : S_RX is D5, S_TX is D4
+//SoftwareSerial modem(4,5); //uC Rx D4, Tx D5
 
 void setup()
 {
